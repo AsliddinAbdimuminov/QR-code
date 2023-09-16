@@ -1,0 +1,45 @@
+
+body{
+  background-color: #D5E1EF;
+}
+.devor{
+  background-color: white;
+  width: 250px;
+  padding: 1%;
+  padding-bottom: 2%;
+  margin: 5% 40%;
+  border-radius: 5%;
+}
+.matn{
+  padding: 4% 2%;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  color: #1B2D4D;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.mtn2{
+  padding-top: 2%;
+  padding-bottom: 0;
+  color: gray;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+
+.rasm
+{
+  padding: 10%;
+  background-image: url(images/image-qr-code.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 200px;
+  height: 200px;
+  border-radius: 2%;
+}
+@media screen and (max-width: 480px) {
+.devor{
+  margin-left: 20%;
+}
+}
